@@ -1,6 +1,10 @@
+import SignIn from "./components/SignIn";
+
 const App = () => {
   return(
-    <h1 className="text-red-500">ON Scan is running...</h1>
+    <main className="h-full w-full bg-white">
+      <SignIn />
+    </main>
   )
 }
 
