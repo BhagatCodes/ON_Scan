@@ -3,7 +3,7 @@ import bgAuth from '../assets/public/images/bg-auth.svg';
 const SignIn = () => {
     return(
         <div className="w-full min-h-screen p-4 sm:p-7">
-            <div className= "bg-no-repeat bg-cover rounded-[40px] w-full min-h-[calc(100vh-56px)] py-8 sm:py-[60px] flex flex-col items-center justify-center gap-3 sm:gap-6" style={{ backgroundImage: `url(${bgAuth})` }}>
+            <div className= "bg-no-repeat bg-cover rounded-[40px] w-full min-h-[calc(100vh-56px)] py-8 sm:py-[140px] flex flex-col items-center justify-center gap-3 sm:gap-6" style={{ backgroundImage: `url(${bgAuth})` }}>
                 <h1 className='font-mona text-[36px] sm:text-[48px] font-bold bg-gradient-to-r from-[#AB8C95] via-black to-[#8E97C5] bg-clip-text text-transparent'>Welcome Back</h1>
                 <p className='text-[#475467] text-[20px] sm:text-[24px] font-mona mb-3 sm:mb-[26px]'>Log In to Continue Your Job Journey</p>
                 <div className='max-w-[90%] sm:max-w-[592px] w-full px-4 py-[24px] bg-gradient-to-b from-[#C1D3F81A] to-[rgba(167,191,241,0.3)] rounded-[60px]'>
